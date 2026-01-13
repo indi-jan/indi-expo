@@ -1,0 +1,190 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-rice-paddy",
+      "description": "A beautiful, lush green rice paddy field under a clear blue sky, representing the natural origin of the rice.",
+      "imageUrl": "https://images.unsplash.com/photo-1604384041761-71d680147eb7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxyaWNlJTIwcGFkZHl8ZW58MHx8fHwxNzY4MjE2MTQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "rice paddy"
+    },
+    {
+      "id": "rice-field-1",
+      "description": "Close-up of golden rice stalks ready for harvest.",
+      "imageUrl": "https://images.unsplash.com/photo-1635562985686-4f8bb9c0d3bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxyaWNlJTIwZmllbGR8ZW58MHx8fHwxNzY4MjIxODQxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "rice field"
+    },
+    {
+      "id": "rice-bowl",
+      "description": "A bowl of perfectly cooked white rice.",
+      "imageUrl": "https://images.unsplash.com/photo-1602881916963-5daf2d97c06e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxyaWNlJTIwYm93bHxlbnwwfHx8fDE3NjgyMjE4NDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "rice bowl"
+    },
+    {
+      "id": "rice-grains",
+      "description": "A handful of raw, high-quality rice grains.",
+      "imageUrl": "https://images.unsplash.com/photo-1686820740687-426a7b9b2043?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyaWNlJTIwZ3JhaW5zfGVufDB8fHx8MTc2ODIyMTg0MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "rice grains"
+    },
+    {
+      "id": "rice-field-2",
+      "description": "Workers harvesting rice in a sunny field.",
+      "imageUrl": "https://images.unsplash.com/photo-1708920926881-e684cc605b9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxyaWNlJTIwaGFydmVzdHxlbnwwfHx8fDE3NjgwOTcyMzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "rice harvest"
+    },
+    {
+      "id": "about-us-vision",
+      "description": "A diverse team of professionals shaking hands, symbolizing global partnership and trust.",
+      "imageUrl": "https://images.unsplash.com/photo-1462899006636-339e08d1844e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxidXNpbmVzcyUyMHBhcnRuZXJzaGlwfGVufDB8fHx8MTc2ODE2NzAyN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "business partnership"
+    },
+    {
+      "id": "basmati-rice",
+      "description": "A close up shot of long-grain Basmati rice.",
+      "imageUrl": "https://images.unsplash.com/photo-1686820740687-426a7b9b2043?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxiYXNtYXRpJTIwcmljZXxlbnwwfHx8fDE3NjgxNDE0NjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "basmati rice"
+    },
+    {
+      "id": "sona-masoori-rice",
+      "description": "Medium-grain Sona Masoori rice in a burlap sack.",
+      "imageUrl": "https://images.unsplash.com/photo-1613045935265-265ff612e0e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxyaWNlJTIwc2Fja3xlbnwwfHx8fDE3NjgyMjE4NDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "rice sack"
+    },
+    {
+      "id": "brown-rice",
+      "description": "A bowl of healthy, cooked brown rice.",
+      "imageUrl": "https://images.unsplash.com/photo-1675150303909-1bb94e33132f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxicm93biUyMHJpY2V8ZW58MHx8fHwxNzY4MjE1MzI1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "brown rice"
+    },
+    {
+      "id": "parboiled-rice",
+      "description": "Golden-hued parboiled rice grains.",
+      "imageUrl": "https://images.unsplash.com/photo-1612708074992-c7936e82c99b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwYXJib2lsZWQlMjByaWNlfGVufDB8fHx8MTc2ODIyMTg0MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "parboiled rice"
+    },
+    {
+      "id": "jasmine-rice",
+      "description": "Fragrant Jasmine rice, showcasing its texture.",
+      "imageUrl": "https://images.unsplash.com/photo-1630056656591-0cba044ba94f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8amFzbWluZSUyMHJpY2V8ZW58MHx8fHwxNzY4MjIxODQxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "jasmine rice"
+    },
+    {
+      "id": "organic-rice",
+      "description": "A label indicating organic certification on a rice package.",
+      "imageUrl": "https://images.unsplash.com/photo-1606951980626-6af35dd396a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8b3JnYW5pYyUyMGxhYmVsfGVufDB8fHx8MTc2ODIyMTg0MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "organic label"
+    },
+    {
+      "id": "milling-facility",
+      "description": "A modern, clean rice milling facility with stainless steel machinery.",
+      "imageUrl": "https://images.unsplash.com/photo-1546185058-592ead754d27?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxpbmR1c3RyaWFsJTIwZmFjdG9yeXxlbnwwfHx8fDE3NjgyMjE4NDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "industrial factory"
+    },
+    {
+      "id": "packaging-facility",
+      "description": "An automated packaging line for rice bags.",
+      "imageUrl": "https://images.unsplash.com/photo-1764185800646-f75f7e16e465?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxmYWN0b3J5JTIwbGluZXxlbnwwfHx8fDE3NjgyMjE4NDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "factory line"
+    },
+    {
+      "id": "storage-warehouse",
+      "description": "A large, well-organized warehouse for storing rice sacks.",
+      "imageUrl": "https://images.unsplash.com/photo-1546102741-936b7dcc25af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3YXJlaG91c2UlMjBpbnRlcmlvcnxlbnwwfHx8fDE3NjgyMTAzMDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "warehouse interior"
+    },
+    {
+      "id": "quality-lab",
+      "description": "A laboratory technician inspecting rice grains under a microscope.",
+      "imageUrl": "https://images.unsplash.com/photo-1614934273590-e5c43f6ae4f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzY2llbmNlJTIwbGFib3JhdG9yeXxlbnwwfHx8fDE3NjgxNjAxNjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "science laboratory"
+    },
+    {
+      "id": "service-export",
+      "description": "A large cargo ship with containers, symbolizing global export.",
+      "imageUrl": "https://images.unsplash.com/photo-1613690399151-65ea69478674?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjYXJnbyUyMHNoaXB8ZW58MHx8fHwxNzY4MTM2NDU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cargo ship"
+    },
+    {
+      "id": "service-packaging",
+      "description": "Custom-branded rice packaging mockups.",
+      "imageUrl": "https://images.unsplash.com/photo-1719488134786-a4c273733931?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwcm9kdWN0JTIwcGFja2FnaW5nfGVufDB8fHx8MTc2ODIyMTg0MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "product packaging"
+    },
+    {
+      "id": "service-logistics",
+      "description": "A fleet of trucks ready for transportation.",
+      "imageUrl": "https://images.unsplash.com/photo-1762060853805-ac5a37f5de6c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx0cmFuc3BvcnQlMjB0cnVja3N8ZW58MHx8fHwxNzY4MjIxODQxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "transport trucks"
+    },
+    {
+      "id": "contact-header",
+      "description": "A customer service representative smiling and wearing a headset.",
+      "imageUrl": "https://images.unsplash.com/photo-1556745753-b2904692b3cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjdXN0b21lciUyMHNlcnZpY2V8ZW58MHx8fHwxNzY4MjE0NzE3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "customer service"
+    },
+    {
+      "id": "carousel-grass-land",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUETXRFEh-rwQK0snwC3CowyMvPd3pTUf1-g&s",
+      "imageHint": "empty field",
+      "description": "Our journey begins in the lush grasslands of India, where the soil is prepared for cultivation."
+    },
+    {
+      "id": "carousel-paddy-field",
+      "imageUrl": "https://images.unsplash.com/photo-1611501355758-0d8b8208e1ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxyaWNlJTIwcGFkZHl8ZW58MHx8fHwxNzY4MjE2MTQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "rice paddy",
+      "description": "Young rice saplings are carefully planted and nurtured in vast, irrigated paddy fields."
+    },
+    {
+      "id": "carousel-crops-grown",
+      "imageUrl": "https://images.unsplash.com/photo-1663991693528-48c60f172d55?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxncm93aW5nJTIwcmljZXxlbnwwfHx8fDE3NjgyODYxMTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "growing rice",
+      "description": "Under the tropical sun, the rice crops grow tall and strong, promising a bountiful harvest."
+    },
+    {
+      "id": "carousel-crop-cultivated",
+      "imageUrl": "https://images.unsplash.com/photo-1665978760766-87c793e494f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxyaWNlJTIwaGFydmVzdHxlbnwwfHx8fDE3NjgyNDEyMjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "rice harvest",
+      "description": "Skilled farmers harvest the mature, golden stalks of rice, a culmination of months of hard work."
+    },
+    {
+      "id": "carousel-paddy",
+      "imageUrl": "https://images.unsplash.com/photo-1615485290628-c5033c657a8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxyaWNlJTIwZ3JhaW5zfGVufDB8fHx8MTc2ODIyMTg0MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "rice grains",
+      "description": "The harvested paddy is readied for the milling process, where the husk is carefully removed."
+    },
+    {
+      "id": "carousel-rice",
+      "imageUrl": "https://images.unsplash.com/photo-1612259980822-e13d828e1076?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cmljZSUyMGJvd2x8ZW58MHx8fHwxNzY4MjIxODQxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "rice bowl",
+      "description": "Delivering the finest quality rice from the heart of India to the rest of the world."
+    },
+    {
+      "id": "non-basmati-rice",
+      "description": "A close up of various non-basmati rice grains.",
+      "imageUrl": "https://images.unsplash.com/photo-1705147289789-6df2593f1b1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxub24tYmFzbWF0aSUyMHJpY2V8ZW58MHx8fHwxNzY4Mjg2OTAxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "non-basmati rice"
+    },
+    {
+      "id": "ponni-rice",
+      "description": "A bowl of cooked Ponni rice.",
+      "imageUrl": "https://images.unsplash.com/photo-1644131447497-8723db691320?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwb25uaSUyMHJpY2V8ZW58MHx8fHwxNzY4Mjg2OTAxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ponni rice"
+    },
+    {
+      "id": "idly-rice",
+      "description": "Short-grain rice perfect for making idlis.",
+      "imageUrl": "https://images.unsplash.com/photo-1705147289789-6df2593f1b1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxpZGx5JTIwcmljZXxlbnwwfHx8fDE3NjgyODY5MDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "idly rice"
+    },
+    {
+      "id": "matta-rice",
+      "description": "A close up of Kerala Matta (Red Rice) grains.",
+      "imageUrl": "https://images.unsplash.com/photo-1594900850417-03031d41b773?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxyZWQlMjByaWNlfGVufDB8fHx8MTc2ODI4NjkwMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "red rice"
+    },
+    {
+      "id": "ir64-rice",
+      "description": "Cooked IR 64 long grain parboiled rice.",
+      "imageUrl": "https://images.unsplash.com/photo-1755598603555-949ce8bb3b50?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxsb25nLWdyYWluJTIwcmljZXxlbnwwfHx8fDE3NjgyODY5MDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "long-grain rice"
+    }
+  ]
+}
