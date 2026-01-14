@@ -3,11 +3,13 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Menu, X, Sprout } from 'lucide-react';
+import { Menu } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import {
   Sheet,
   SheetContent,
+  SheetHeader,
+  SheetTitle,
   SheetTrigger,
   SheetClose,
 } from '@/components/ui/sheet';
@@ -20,7 +22,6 @@ const navLinks = [
   { href: '/varieties', label: 'Rice Varieties' },
   { href: '/facilities', label: 'Facilities' },
   { href: '/services', label: 'Services' },
-  { href: '/information', label: 'Information' },
   { href: '/contact', label: 'Contact' },
 ];
 
@@ -73,6 +74,9 @@ export default function Header() {
                 </Button>
               </SheetTrigger>
               <SheetContent side="right" className="w-[300px] sm:w-[400px]">
+                <SheetHeader>
+                  <SheetTitle className="sr-only">Mobile Navigation</SheetTitle>
+                </SheetHeader>
                 <div className="p-4">
                   <div className="mb-8">
                     <Logo isScrolled={true} />
