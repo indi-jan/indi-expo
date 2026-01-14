@@ -3,11 +3,17 @@ import { Toaster } from '@/components/ui/toaster';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import './globals.css';
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from '@/components/ui/dropdown-menu';
 
 export const metadata: Metadata = {
-  title: 'Indirani Rice Exports - Premium Quality Rice Supplier',
+  title: 'Indirani Enterprises - Premium Quality Goods Supplier',
   description:
-    'Indirani Rice Exports is a leading exporter of premium quality Indian rice varieties, including Basmati, Sona Masoori, and more. We are committed to quality, sustainability, and customer satisfaction.',
+    'Indirani Enterprises is a leading exporter of premium quality Indian products. We are committed to quality, sustainability, and customer satisfaction.',
 };
 
 export default function RootLayout({

@@ -9,22 +9,9 @@ export default function ContactPage() {
 
   return (
     <>
-      <section className="relative py-20 md:py-32 bg-secondary/20">
-        {headerImage && (
-             <Image
-             src={headerImage.imageUrl}
-             alt={headerImage.description}
-             fill
-             className="object-cover"
-             data-ai-hint={headerImage.imageHint}
-           />
-        )}
-        <div className="absolute inset-0 bg-primary/80" />
-        <div className="relative container mx-auto px-4 text-center text-primary-foreground">
-          <h1 className="font-headline text-4xl md:text-5xl font-bold">Get In Touch</h1>
-          <p className="mt-4 text-lg md:text-xl max-w-3xl mx-auto">
-            We're here to help. Whether you have a question about our products, pricing, or anything else, our team is ready to answer all your questions.
-          </p>
+      <section className="bg-primary/10 py-4">
+        <div className="container mx-auto px-4">
+          <h1 className="font-headline text-3xl font-bold text-primary">Get In Touch</h1>
         </div>
       </section>
 
@@ -43,7 +30,7 @@ export default function ContactPage() {
                     <div>
                         <h3 className="font-headline text-xl font-semibold">Email Us</h3>
                         <p className="text-muted-foreground">Send your inquiries to our team.</p>
-                        <a href="mailto:info@indirani.com" className="text-primary hover:underline">info@indirani.com</a>
+                        <a href="mailto:Indranient13@gmail.com" className="text-primary hover:underline">Indranient13@gmail.com</a>
                     </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -53,7 +40,7 @@ export default function ContactPage() {
                     <div>
                         <h3 className="font-headline text-xl font-semibold">Call Us</h3>
                         <p className="text-muted-foreground">Speak with a representative.</p>
-                        <a href="tel:+911234567890" className="text-primary hover:underline">+91 123 456 7890</a>
+                        <a href="tel:9677024296" className="text-primary hover:underline">9677024296</a>
                     </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -62,7 +49,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                         <h3 className="font-headline text-xl font-semibold">Our Location</h3>
-                        <p className="text-muted-foreground">123 Rice Mill Road<br/>Karnal, Haryana, 132001<br/>India</p>
+                        <p className="text-muted-foreground">No,3.Varalakshmi Castle.<br/>G3,Ground floor, Akbarabad st, 2 ND street,<br/>Kodambakkam,Chennai. 600024</p>
                     </div>
                 </div>
             </div>

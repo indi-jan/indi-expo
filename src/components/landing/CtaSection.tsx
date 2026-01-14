@@ -1,13 +1,34 @@
+'use client';
+
 import Link from 'next/link';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
+import { motion } from 'framer-motion';
 
 export default function CtaSection() {
   const ctaImage = PlaceHolderImages.find(p => p.id === 'carousel-paddy-field');
 
+  const fadeIn = {
+    hidden: { opacity: 0, y: 20 },
+    visible: { 
+        opacity: 1, 
+        y: 0,
+        transition: {
+            duration: 0.7,
+            ease: "easeOut"
+        } 
+    }
+  };
+
   return (
-    <section className="relative bg-secondary/20">
+    <motion.section 
+      className="relative bg-secondary/20"
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true, amount: 0.5 }}
+      variants={fadeIn}
+    >
        {ctaImage && (
         <Image
           src={ctaImage.imageUrl}
@@ -27,6 +48,6 @@ export default function CtaSection() {
           <Link href="/contact">Get in Touch</Link>
         </Button>
       </div>
-    </section>
+    </motion.section>
   );
 }

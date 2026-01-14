@@ -17,7 +17,7 @@ export default function Footer() {
           <div className="md:col-span-1">
             <Logo isScrolled={true} />
             <p className="mt-4 text-sm text-muted-foreground">
-              Exporting the finest Indian rice to the world with a commitment to quality and sustainability.
+              Exporting the finest Indian products to the world with a commitment to quality and sustainability.
             </p>
           </div>
           <div>
@@ -35,9 +35,9 @@ export default function Footer() {
           <div>
           <h3 className="font-headline text-lg font-semibold">Contact Us</h3>
             <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
-                <li>Email: info@indirani.com</li>
-                <li>Phone: +91 123 456 7890</li>
-                <li>Address: 123 Rice Mill Rd, Karnal, Haryana, India</li>
+                <li>Email: Indranient13@gmail.com</li>
+                <li>Phone: 9677024296</li>
+                <li>Address: No,3.Varalakshmi Castle, G3,Ground floor, Akbarabad st, 2 ND street, Kodambakkam,Chennai. 600024</li>
             </ul>
           </div>
           <div>
@@ -50,7 +50,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-12 border-t pt-8 text-center text-sm text-muted-foreground">
-            <p>&copy; {new Date().getFullYear()} Indirani Rice Exports. All Rights Reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Indirani Enterprises. All Rights Reserved.</p>
         </div>
       </div>
     </footer>

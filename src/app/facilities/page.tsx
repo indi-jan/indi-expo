@@ -1,5 +1,8 @@
+'use client';
+
 import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
+import { motion } from 'framer-motion';
 
 const facilities = [
   {
@@ -25,23 +28,52 @@ const facilities = [
 ];
 
 export default function FacilitiesPage() {
+    const fadeIn = {
+        hidden: { opacity: 0, y: 20 },
+        visible: { 
+            opacity: 1, 
+            y: 0,
+            transition: {
+                duration: 0.7,
+                ease: "easeOut"
+            } 
+        }
+    };
+
+    const containerVariants = {
+        hidden: {},
+        visible: {
+            transition: {
+                staggerChildren: 0.3
+            }
+        }
+    }
+
   return (
     <>
-      <section className="py-16 md:py-24 bg-secondary/20 text-center">
+      <section className="bg-primary/10 py-4">
         <div className="container mx-auto px-4">
-          <h1 className="font-headline text-4xl md:text-5xl font-bold">Our Infrastructure</h1>
-          <p className="mt-4 text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
-            State-of-the-art facilities that form the backbone of our promise of quality and efficiency.
-          </p>
+          <motion.h1 
+            initial="hidden"
+            animate="visible"
+            variants={fadeIn}
+            className="font-headline text-3xl font-bold text-primary">Our Infrastructure</motion.h1>
         </div>
       </section>
 
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4">
-          <div className="space-y-16 md:space-y-20">
+          <motion.div 
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.1 }}
+            variants={containerVariants}
+            className="space-y-16 md:space-y-20"
+            >
             {facilities.map((facility, index) => (
-              <div
+              <motion.div
                 key={facility.title}
+                variants={fadeIn}
                 className="grid lg:grid-cols-2 gap-8 md:gap-12 items-center"
               >
                 <div className={index % 2 === 0 ? 'order-2 lg:order-1' : 'order-2 lg:order-1'}>
@@ -60,9 +92,9 @@ export default function FacilitiesPage() {
                     />
                   )}
                 </div>
-              </div>
+              </motion.div>
             ))}
-          </div>
+          </motion.div>
         </div>
       </section>
     </>

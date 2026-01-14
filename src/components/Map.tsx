@@ -7,7 +7,7 @@ export default function Map() {
           style={{ border: 0 }}
           loading="lazy"
           allowFullScreen
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55251.36531336043!2d76.94363384872146!3d29.69174983808013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390e70a4b7b4666d%3A0x6b49931ef82af30!2sKarnal%2C%20Haryana%2C%20India!5e0!3m2!1sen!2sus!4v1689253459631!5m2!1sen!2sus"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.685375333551!2d80.2223800758156!3d13.05581511258602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5266e744f43e6b%3A0x8f277133f972370e!2sAkbarabad%202nd%20St%2C%20Kodambakkam%2C%20Chennai%2C%20Tamil%20Nadu%20600024%2C%20India!5e0!3m2!1sen!2sus!4v1720490505193!5m2!1sen!2sus"
         ></iframe>
       </div>
     );
