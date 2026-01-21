@@ -51,9 +51,9 @@ export default function VarietiesSection() {
       <div className="absolute inset-0" />
 
       <div className="container mx-auto px-4 text-center relative z-10">
-        <Sprout className="mx-auto h-12 w-12 text-primary" />
-        <h2 className="font-headline text-3xl md:text-4xl font-bold mt-4 text-primary">Our Featured Varieties</h2>
-        <p className="mt-2 text-lg text-primary/90 max-w-2xl mx-auto">
+        <Sprout className="mx-auto h-12 w-12 text-white" />
+        <h2 className="font-headline text-3xl md:text-4xl font-bold mt-4 text-white">Our Featured Varieties</h2>
+        <p className="mt-2 text-lg text-white/90 max-w-2xl mx-auto">
           From aromatic Basmati to wholesome Brown Rice, explore our curated selection of premium grains.
         </p>
       </div>

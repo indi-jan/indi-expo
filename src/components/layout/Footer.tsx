@@ -5,7 +5,10 @@ import Logo from '@/components/Logo';
 const navLinks = [
     { href: '/about', label: 'About Us' },
     { href: '/varieties', label: 'Rice Varieties' },
-    { href: '/facilities', label: 'Facilities' },
+    { href: '/spices', label: 'Spices' },
+    { href: '/seeds', label: 'Seeds' },
+    { href: '/pulses', label: 'Pulses' },
+    { href: '/coconut-products', label: 'Coconut Products' },
     { href: '/contact', label: 'Contact' },
   ];
 
@@ -15,7 +18,7 @@ export default function Footer() {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-1">
-            <Logo isScrolled={true} />
+            <Logo />
             <p className="mt-4 text-sm text-muted-foreground">
               Exporting the finest Indian products to the world with a commitment to quality and sustainability.
             </p>

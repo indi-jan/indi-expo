@@ -34,11 +34,12 @@ import { varieties } from '@/lib/varieties';
 
 const navLinks = [
   { href: '/', label: 'Home' },
-  { href: '/varieties', label: 'Rice Varieties' },
   { href: '/about', label: 'About Us' },
- 
-  { href: '/facilities', label: 'Facilities' },
-  { href: '/services', label: 'Services' },
+  { href: '/varieties', label: 'Rice Varieties' },
+  { href: '/spices', label: 'Spices' },
+  { href: '/seeds', label: 'Seeds' },
+  { href: '/pulses', label: 'Pulses' },
+  { href: '/coconut-products', label: 'Coconut Products' },
   { href: '/contact', label: 'Contact' },
 ];
 
@@ -49,7 +50,7 @@ export default function Header() {
     <header className="sticky top-0 z-50 w-full border-b bg-background shadow-sm">
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <Logo />
-        <nav className="hidden md:flex items-center">
+        <nav className="hidden lg:flex items-center">
           <NavigationMenu>
             <NavigationMenuList>
               {navLinks.map((link) => {
@@ -93,7 +94,7 @@ export default function Header() {
             </NavigationMenuList>
           </NavigationMenu>
         </nav>
-        <div className="md:hidden">
+        <div className="lg:hidden">
           <Sheet>
             <SheetTrigger asChild>
               <Button variant="ghost" size="icon">
