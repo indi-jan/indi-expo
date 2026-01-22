@@ -1,4 +1,3 @@
-
 'use client';
 
 import Image from 'next/image';
@@ -19,16 +18,6 @@ export default function SpicesPage() {
             duration: 0.7,
             ease: "easeOut"
         } 
-    }
-  };
-
-  const containerVariants = {
-    hidden: { opacity: 0 },
-    visible: {
-        opacity: 1,
-        transition: {
-            staggerChildren: 0.1
-        }
     }
   };
 
@@ -69,15 +58,17 @@ export default function SpicesPage() {
           >
             Explore the aromatic world of Indian spices with our handpicked collection. Each spice is carefully selected to bring authentic flavors and fragrances to your kitchen.
           </motion.p>
-          <motion.div
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.1 }}
-            variants={containerVariants}
-            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8"
+          <div
+            className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8"
           >
             {spices.map((product) => (
-              <motion.div key={product.slug} variants={fadeIn}>
+              <motion.div 
+                key={product.slug} 
+                variants={fadeIn}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.1 }}
+              >
                 <Card className="flex flex-col overflow-hidden transition-shadow duration-300 hover:shadow-xl h-full">
                   {product.image && (
                     <div className="relative h-56 w-full">
@@ -103,7 +94,7 @@ export default function SpicesPage() {
                 </Card>
               </motion.div>
             ))}
-          </motion.div>
+          </div>
         </div>
       </section>
     </>
