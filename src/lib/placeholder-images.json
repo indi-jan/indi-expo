@@ -39,13 +39,13 @@
     {
       "id": "basmati-rice",
       "description": "A close up shot of long-grain Basmati rice.",
-      "imageUrl": "https://images.unsplash.com/photo-1686820740687-426a7b9b2043?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxiYXNtYXRpJTIwcmljZXxlbnwwfHx8fDE3NjgxNDE0NjZ8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/image/rice/basmati.png",
       "imageHint": "basmati rice"
     },
     {
       "id": "sona-masoori-rice",
       "description": "Medium-grain Sona Masoori rice in a burlap sack.",
-      "imageUrl": "https://images.unsplash.com/photo-1613045935265-265ff612e0e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxyaWNlJTIwc2Fja3xlbnwwfHx8fDE3NjgyMjE4NDF8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/image/rice/sona.png",
       "imageHint": "rice sack"
     },
     {
@@ -159,37 +159,37 @@
     {
       "id": "non-basmati-rice",
       "description": "A close up of various non-basmati rice grains.",
-      "imageUrl": "https://images.unsplash.com/photo-1705147289789-6df2593f1b1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxub24tYmFzbWF0aSUyMHJpY2V8ZW58MHx8fHwxNzY4Mjg2OTAxfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/image/rice/nonbasmati.png",
       "imageHint": "non-basmati rice"
     },
     {
       "id": "ponni-rice",
       "description": "A bowl of cooked Ponni rice.",
-      "imageUrl": "https://images.unsplash.com/photo-1644131447497-8723db691320?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwb25uaSUyMHJpY2V8ZW58MHx8fHwxNzY4Mjg2OTAxfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/image/rice/ponni.png",
       "imageHint": "ponni rice"
     },
     {
       "id": "idly-rice",
       "description": "Short-grain rice perfect for making idlis.",
-      "imageUrl": "https://images.unsplash.com/photo-1705147289789-6df2593f1b1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxpZGx5JTIwcmljZXxlbnwwfHx8fDE3NjgyODY5MDF8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/image/rice/idly.png",
       "imageHint": "idly rice"
     },
     {
       "id": "matta-rice",
       "description": "A close up of Kerala Matta (Red Rice) grains.",
-      "imageUrl": "https://images.unsplash.com/photo-1594900850417-03031d41b773?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxyZWQlMjByaWNlfGVufDB8fHx8MTc2ODI4NjkwMXww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/image/rice/keralamatta.png",
       "imageHint": "red rice"
     },
     {
       "id": "ir64-rice",
       "description": "Cooked IR 64 long grain parboiled rice.",
-      "imageUrl": "https://images.unsplash.com/photo-1755598603555-949ce8bb3b50?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxsb25nLWdyYWluJTIwcmljZXxlbnwwfHx8fDE3NjgyODY5MDF8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/image/rice/ir64.png",
       "imageHint": "long-grain rice"
     },
     {
       "id": "organic-rice",
       "description": "A person holding a stalk of rice, representing organic farming",
-      "imageUrl": "https://images.unsplash.com/photo-1606951980626-6af35dd396a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8b3JnYW5pYyUyMGxhYmVsfGVufDB8fHx8MTc2ODIyMTg0MXww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/image/rice/organic.png",
       "imageHint": "organic label"
     },
     {
@@ -237,25 +237,25 @@
     {
       "id": "spices-hero",
       "description": "A vibrant array of various spices on a dark background.",
-      "imageUrl": "https://images.unsplash.com/photo-1599508704512-2f19efd1e35f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzcGljZXMlMjBhcnJheXxlbnwwfHx8fDE3NjgzMDkwMDB8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/image/spices/spicehero.png",
       "imageHint": "spices array"
     },
     {
       "id": "seeds-hero",
       "description": "A collection of various edible seeds in small bowls.",
-      "imageUrl": "https://images.unsplash.com/photo-1615485925576-85f2f459c5a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlZGlibGUlMjBzZWVkc3xlbnwwfHx8fDE3NjgzMDkwMDB8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/image/seed/seedhero.png",
       "imageHint": "edible seeds"
     },
     {
       "id": "cumin-seeds",
       "description": "A close-up of cumin seeds.",
-      "imageUrl": "https://images.unsplash.com/photo-1600791102844-208e695205f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjdW1pbiUyMHNlZWRzfGVufDB8fHx8MTc2ODgyNzUxOHww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/image/spices/cumin.png",
       "imageHint": "cumin seeds"
     },
     {
       "id": "fennel-seeds",
       "description": "A macro shot of green fennel seeds.",
-      "imageUrl": "https://images.unsplash.com/photo-1765118527220-da9c7a560b13?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxmZW5uZWwlMjBzZWVkc3xlbnwwfHx8fDE3Njg4Mjc1MTd8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/image/spices/fennelseed.png",
       "imageHint": "fennel seeds"
     },
     {
@@ -267,25 +267,25 @@
     {
       "id": "coconut-hero",
       "description": "A split coconut with white flesh and coconut flakes on a wooden table.",
-      "imageUrl": "https://images.unsplash.com/photo-1605792243405-d0be8148b3b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2NvbnV0JTIwcHJvZHVjdHN8ZW58MHx8fHwxNzY4MzA5MDAwfDA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/image/coconut/coconuthero.png",
       "imageHint": "coconut products"
     },
     {
       "id": "coconut-powder",
       "description": "Fine coconut powder in a white bowl.",
-      "imageUrl": "https://images.unsplash.com/photo-1662106324078-50ae25130065?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2NvbnV0JTIwcG93ZGVyfGVufDB8fHx8MTc2ODgyNzUxN3ww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/image/coconut/coconutpowder.png",
       "imageHint": "coconut powder"
     },
     {
       "id": "desiccated-coconut",
       "description": "Shredded desiccated coconut.",
-      "imageUrl": "https://images.unsplash.com/photo-1587890767851-e9bc526764b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxkZXNpY2NhdGVkJTIwY29jb251dHxlbnwwfHx8fDE3Njg4Mjc1MTh8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/image/coconut/desicoconut.png",
       "imageHint": "desiccated coconut"
     },
     {
       "id": "coconut-oil",
       "description": "A jar of pure coconut oil with a spoon.",
-      "imageUrl": "https://images.unsplash.com/photo-1588413335367-e49d32c5b50b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjb2NvbnV0JTIwb2lsfGVufDB8fHx8MTc2ODczODc3Nnww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/image/coconut/coconutoil.png",
       "imageHint": "coconut oil"
     },
     {
@@ -358,61 +358,61 @@
     {
       "id": "star-anise",
       "description": "Star-shaped anise spice",
-      "imageUrl": "https://images.unsplash.com/photo-1601379760622-0d2e7ad24c11?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c3RhciUyMGFuaXNlfGVufDB8fHx8MTc2ODgyNzUxOHww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/image/spices/anise.png",
       "imageHint": "star anise"
     },
     {
       "id": "fenugreek",
       "description": "Aromatic fenugreek seeds",
-      "imageUrl": "https://images.unsplash.com/photo-1668019177202-dcc0008beeb3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxmZW51Z3JlZWslMjBzZWVkc3xlbnwwfHx8fDE3Njg4Mjc1MTh8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/image/spices/fenugreek.png",
       "imageHint": "fenugreek seeds"
     },
     {
       "id": "asafoetida",
       "description": "Asafoetida resin block",
-      "imageUrl": "https://picsum.photos/seed/asafoetida/400/400",
+      "imageUrl": "/image/spices/asafoetida.png",
       "imageHint": "asafoetida resin"
     },
     {
       "id": "stone-flower",
       "description": "Dried kalpasi stone flower",
-      "imageUrl": "https://images.unsplash.com/photo-1762826164184-b91a6c682d5c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c3RvbmUlMjBmbG93ZXJ8ZW58MHx8fHwxNzY4ODI3NTE4fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/image/spices/stoneflower.png",
       "imageHint": "stone flower"
     },
     {
       "id": "palm-jaggery",
       "description": "Solid palm jaggery",
-      "imageUrl": "https://images.unsplash.com/photo-1687524358047-17fbe36c6902?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwYWxtJTIwamFnZ2VyeXxlbnwwfHx8fDE3Njg4Mjc1MTh8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/image/spices/jaggery.png",
       "imageHint": "palm jaggery"
     },
     {
       "id": "sabja-seeds",
       "description": "A bowl of soaked sabja (basil) seeds.",
-      "imageUrl": "https://images.unsplash.com/photo-1620912189895-1f652b30f0f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYXNpbCUyMHNlZWRzfGVufDB8fHx8MTc2ODg5ODg5OXww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/image/seed/sesame.png",
       "imageHint": "basil seeds"
     },
     {
       "id": "chia-seeds",
       "description": "Chia seeds in a wooden spoon.",
-      "imageUrl": "https://images.unsplash.com/photo-1541696432-824335c94101?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGlhJTIwc2VlZHN8ZW58MHx8fHwxNzY4ODk4OTMwfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/image/seed/chia.png",
       "imageHint": "chia seeds"
     },
     {
       "id": "cucumber-seed",
       "description": "A handful of cucumber seeds.",
-      "imageUrl": "https://images.unsplash.com/photo-1619896503859-9f79b02a9071?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjdWN1bWJlciUyMHNlZWRzfGVufDB8fHx8MTc2ODg5ODk1Nnww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/image/seed/cucumber.png",
       "imageHint": "cucumber seeds"
     },
     {
       "id": "sunflower-seed",
       "description": "Sunflower seeds in a bowl.",
-      "imageUrl": "https://images.unsplash.com/photo-1620188959953-315893d93198?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdW5mbG93ZXIlMjBzZWVkc3xlbnwwfHx8fDE3Njg4OTg5ODJ8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/image/seed/sunflower.png",
       "imageHint": "sunflower seeds"
     },
     {
       "id": "pumpkin-seeds",
       "description": "Roasted pumpkin seeds.",
-      "imageUrl": "https://images.unsplash.com/photo-1551065126-1a43a88c7f3b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwdW1wa2luJTIwc2VlZHN8ZW58MHx8fHwxNzY4ODk5MDAxfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/image/seed/pumpkin.png",
       "imageHint": "pumpkin seeds"
     },
     {
