@@ -291,67 +291,68 @@
     {
       "id": "mace",
       "description": "Aromatic lacy mace",
-      "imageUrl": "https://images.unsplash.com/photo-1651667020221-c2d816272557?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtYWNlJTIwc3BpY2V8ZW58MHx8fHwxNzY4ODI3NTE3fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/image/spices/mace.png",
       "imageHint": "mace spice"
     },
     {
       "id": "cloves",
       "description": "Aromatic dried cloves",
-      "imageUrl": "https://images.unsplash.com/photo-1700478934209-b4db382c282f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjbG92ZXMlMjBzcGljZXxlbnwwfHx8fDE3Njg4Mjc1MTh8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/image/spices/clove.png",
+
       "imageHint": "cloves spice"
     },
     {
       "id": "green-cardamom",
       "description": "Fragrant green cardamom pods",
-      "imageUrl": "https://images.unsplash.com/photo-1642255521852-7e7c742ac58f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncmVlbiUyMGNhcmRhbW9tfGVufDB8fHx8MTc2ODgyNzUxOHww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/image/spices/cardamom.png",
       "imageHint": "green cardamom"
     },
     {
       "id": "cinnamon-sticks",
       "description": "Delicate Ceylon cinnamon sticks",
-      "imageUrl": "https://images.unsplash.com/photo-1601379760622-0d2e7ad24c11?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjaW5uYW1vbiUyMHN0aWNrc3xlbnwwfHx8fDE3Njg4Mjc1MTh8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/image/spices/cinnamon.png",
       "imageHint": "cinnamon sticks"
     },
     {
       "id": "nutmeg",
       "description": "Whole nutmeg spice",
-      "imageUrl": "https://images.unsplash.com/photo-1640017679257-187c9303c7c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxudXRtZWclMjBzcGljZXxlbnwwfHx8fDE3Njg4Mjc1MTh8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/image/spices/nutmug.png",
       "imageHint": "nutmeg spice"
     },
     {
       "id": "black-cardamom",
       "description": "Smoky black cardamom pods",
-      "imageUrl": "https://images.unsplash.com/photo-1624351251625-cf02b018223c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxibGFjayUyMGNhcmRhbW9tfGVufDB8fHx8MTc2ODgyNzUxOHww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/image/spices/blackcaedamom.png",
       "imageHint": "black cardamom"
     },
     {
       "id": "marathi-moggu",
       "description": "Kapok buds spice",
-      "imageUrl": "https://images.unsplash.com/photo-1762198076066-6a7ed50bedf1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxrYXBvayUyMGJ1ZHN8ZW58MHx8fHwxNzY4ODI3NTE4fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/image/spices/maratimoggu.png",
       "imageHint": "kapok buds"
     },
     {
       "id": "white-pepper",
       "description": "Pungent white peppercorns",
-      "imageUrl": "https://images.unsplash.com/photo-1709798288240-a23904bca115?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3aGl0ZSUyMHBlcHBlcnxlbnwwfHx8fDE3Njg4Mjc1MTh8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/image/spices/whitepepper.png",
       "imageHint": "white pepper"
     },
     {
       "id": "turmeric-finger",
       "description": "Dried turmeric root fingers",
-      "imageUrl": "https://images.unsplash.com/photo-1716944411559-287c90de7b78?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx0dXJtZXJpYyUyMHJvb3R8ZW58MHx8fHwxNzY4NzIxOTU0fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/image/spices/turmeric.png",
       "imageHint": "turmeric root"
     },
     {
       "id": "dry-ginger",
       "description": "Dried ginger root",
-      "imageUrl": "https://images.unsplash.com/photo-1566846128021-b940b0eec910?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxkcnklMjBnaW5nZXJ8ZW58MHx8fHwxNzY4ODI3NTE4fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/image/spices/dryginger.png",
       "imageHint": "dry ginger"
     },
     {
       "id": "black-pepper",
       "description": "Whole black peppercorns on a wooden spoon.",
-      "imageUrl": "https://images.unsplash.com/photo-1649951806971-ad0e00408773?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxibGFjayUyMHBlcHBlcnxlbnwwfHx8fDE3Njg3MjY0NTh8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/image/spices/blackpepper.png",
       "imageHint": "black pepper"
     },
     {

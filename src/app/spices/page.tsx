@@ -1,3 +1,4 @@
+
 'use client';
 
 import Image from 'next/image';
@@ -22,8 +23,9 @@ export default function SpicesPage() {
   };
 
   const containerVariants = {
-    hidden: {},
+    hidden: { opacity: 0 },
     visible: {
+        opacity: 1,
         transition: {
             staggerChildren: 0.1
         }
@@ -72,7 +74,7 @@ export default function SpicesPage() {
             whileInView="visible"
             viewport={{ once: true, amount: 0.1 }}
             variants={containerVariants}
-            className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8"
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8"
           >
             {spices.map((product) => (
               <motion.div key={product.slug} variants={fadeIn}>
