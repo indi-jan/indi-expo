@@ -4,7 +4,7 @@ import Logo from '@/components/Logo';
 
 const navLinks = [
     { href: '/about', label: 'About Us' },
-    { href: '/varieties', label: 'Rice Varieties' },
+    { href: '/#varieties', label: 'Rice Varieties' },
     { href: '/spices', label: 'Spices' },
     { href: '/seeds', label: 'Seeds' },
     { href: '/pulses', label: 'Pulses' },

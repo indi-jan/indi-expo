@@ -14,6 +14,12 @@ export const metadata: Metadata = {
   title: 'Indirani Enterprises - Premium Quality Goods Supplier',
   description:
     'Indirani Enterprises is a leading exporter of premium quality Indian products. We are committed to quality, sustainability, and customer satisfaction.',
+ icons: {
+    icon: {
+      url: '/favicon.ico',
+      sizes: 'any',
+    },
+  },
 };
 
 export default function RootLayout({
