@@ -426,6 +426,49 @@
       "description": "A pile of dried horse gram legumes.",
       "imageUrl": "/image/pulses/horsegram.png",
       "imageHint": "horse gram"
+    },
+   
+    {
+      "id": "salt",
+      "description": "A bowl of crystalline sea salt.",
+      "imageUrl": "/image/coconut/salt.png",
+      "imageHint": "sea salt"
+    },
+    {
+      "id": "millet-bars",
+      "description": "Healthy millet energy bars.",
+      "imageUrl": "/image/coconut/millet.png",
+      "imageHint": "millet bars"
+    },
+    {
+      "id": "moringa-powder",
+      "description": "A bowl of green moringa powder.",
+      "imageUrl": "/image/coconut/moringa.png",
+      "imageHint": "moringa powder"
+    },
+    {
+      "id": "neem-powder",
+      "description": "A bowl of neem powder.",
+      "imageUrl": "/image/coconut/neem.png",
+      "imageHint": "neem powder"
+    },
+    {
+      "id": "herbal-teas",
+      "description": "A cup of herbal tea with various herbs.",
+      "imageUrl": "/image/coconut/herbal.png",
+      "imageHint": "herbal tea"
+    },
+    {
+      "id": "jaggery",
+      "description": "Solid  jaggery",
+      "imageUrl": "/image/coconut/jaggery1.png",
+      "imageHint": "jaggery"
+    },
+    {
+      "id": "cold-pressed-oils",
+      "description": "Bottles of various cold pressed oils.",
+      "imageUrl": "/image/coconut/oil.png",
+      "imageHint": "cold pressed oil"
     }
   ]
 }

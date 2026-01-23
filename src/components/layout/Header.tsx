@@ -39,7 +39,7 @@ const navLinks = [
   { href: '/spices', label: 'Spices' },
   { href: '/seeds', label: 'Seeds' },
   { href: '/pulses', label: 'Pulses' },
-  { href: '/coconut-products', label: 'Coconut Products' },
+  { href: '/coconut-products', label: 'Other Products' },
   { href: '/contact', label: 'Contact' },
 ];
 
