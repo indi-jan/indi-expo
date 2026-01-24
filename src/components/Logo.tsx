@@ -16,16 +16,24 @@ export default function Logo() {
         Indirani Enterprises
       </span>
     </Link>*/
-     <Link href="/" className="flex items-center gap-3">
-      <div className="relative h-12 w-40 md:h-20 md:w-64">
+      <Link href="/" className="flex items-center gap-3">
+      
+      {/* Logo image */}
+      <div className="relative h-12 w-12 md:h-12 md:w-12">
         <Image
           src="/image/logo.png"
           alt="Indirani Enterprises Logo"
           fill
           priority
-          className="object-contain"
+          className="object-cover"
         />
       </div>
+
+      {/* Brand text */}
+      <span className="font-headline font-bold text-2xl text-foreground whitespace-nowrap">
+        Indirani Enterprises
+      </span>
+
     </Link>
   );
 }

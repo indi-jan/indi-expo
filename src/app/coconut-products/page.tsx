@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import HorizontalMarquee from '@/components/HorizontalMarquee';
+import { otherProducts } from '@/lib/coconut-products';
 
 export default function OtherProductsPage() {
   const heroImage = PlaceHolderImages.find(p => p.id === 'coconut-hero');
@@ -15,6 +16,15 @@ export default function OtherProductsPage() {
       opacity: 1,
       y: 0,
       transition: { duration: 0.7, ease: 'easeOut' },
+    },
+  };
+  
+  const containerVariants = {
+    hidden: {},
+    visible: {
+        transition: {
+            staggerChildren: 0.2,
+        },
     },
   };
 
@@ -53,7 +63,45 @@ export default function OtherProductsPage() {
         viewport={{ once: true, amount: 0.2 }}
         variants={fadeIn}
       >
-        <HorizontalMarquee />
+        {/* Desktop: Marquee */}
+        <div className="hidden md:block">
+            <HorizontalMarquee />
+        </div>
+
+        {/* Mobile: Grid */}
+        <div className="container mx-auto px-4 md:hidden">
+            <motion.div 
+                className="grid grid-cols-2 gap-6"
+                variants={containerVariants}
+            >
+            {otherProducts.map((product) => (
+                <motion.div 
+                    key={product.slug} 
+                    variants={fadeIn}
+                >
+                    <div className="group h-full flex flex-col overflow-hidden rounded-xl bg-card shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
+                      {product.image && (
+                        <div className="relative aspect-[4/5] w-full overflow-hidden">
+                          <Image
+                            src={product.image.imageUrl}
+                            alt={product.name}
+                            fill
+                            className="object-cover transition-transform duration-500 group-hover:scale-105"
+                            data-ai-hint={product.image.imageHint}
+                          />
+                        </div>
+                      )}
+                      <div className="p-3 text-center flex-grow flex items-center justify-center">
+                        <h3 className="font-headline text-base font-semibold text-card-foreground">
+                          {product.name}
+                        </h3>
+                      </div>
+                    </div>
+                </motion.div>
+            ))}
+          </motion.div>
+        </div>
+
       </motion.section>
     </>
   );
