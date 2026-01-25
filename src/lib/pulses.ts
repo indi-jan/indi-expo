@@ -10,11 +10,11 @@ export type Pulse = {
 
 export const pulses: Pulse[] = [
   {
-    name: 'Green Peas (Pacha Pattani)',
-    slug: 'green-peas',
-    image: PlaceHolderImages.find(p => p.id === 'green-peas'),
-    description: 'Vibrant green peas are small, spherical seeds that are sweet and starchy. They are a popular vegetable, packed with antioxidants and nutrients.',
-    usage: 'Commonly used in curries, rice dishes like biryani, stews, salads, and as a side dish. They can be added to both savory and slightly sweet preparations.'
+     name: 'Urad Dal (Ulunthu)',
+    slug: 'urad-dal',
+    image: PlaceHolderImages.find(p => p.id === 'urad-dal'),
+    description: 'Also known as black gram, these are split and skinned lentils with a creamy white interior and a mild, earthy flavor. They are a staple in South Indian cuisine.',
+    usage: 'Essential for making batters for dosas and idlis. Also used in dals, vadas (fritters), and to make papadums.'
   },
   {
     name: 'Horse Gram (Kollu)',

@@ -3,7 +3,7 @@
 import * as React from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Menu } from 'lucide-react';
+import { Menu, Search } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import {
   Sheet,
@@ -28,11 +28,16 @@ import {
   AccordionTrigger,
 } from '@/components/ui/accordion';
 
+import { Dialog } from '@/components/ui/dialog';
+import { SearchDialog } from '@/components/SearchDialog';
+
+
 import { cn } from '@/lib/utils';
 import Logo from '@/components/Logo';
 import { varieties } from '@/lib/varieties';
 
 const navLinks = [
+  { href: '#search', label: 'Search' },
   { href: '/', label: 'Home' },
   { href: '/about', label: 'About Us' },
   { href: '/varieties', label: 'Rice Varieties' },
@@ -45,110 +50,149 @@ const navLinks = [
 
 export default function Header() {
   const pathname = usePathname();
+  const [isSearchOpen, setIsSearchOpen] = React.useState(false);
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-background shadow-sm">
-      <div className="container mx-auto flex h-16 items-center justify-between px-4">
-        <Logo />
-        <nav className="hidden lg:flex items-center">
-          <NavigationMenu>
-            <NavigationMenuList>
-              {navLinks.map((link) => {
-                if (link.href === '/varieties') {
+    <>
+      <header className="sticky top-0 z-50 w-full border-b bg-background shadow-sm">
+        <div className="container mx-auto flex h-16 items-center justify-between px-4">
+          <Logo />
+          <nav className="hidden lg:flex items-center">
+            <NavigationMenu>
+              <NavigationMenuList>
+                {navLinks.map((link) => {
+                  if (link.href === '#search') {
+                    return (
+                      <NavigationMenuItem key={link.href}>
+                        <NavigationMenuLink asChild>
+                          <button
+                            onClick={() => setIsSearchOpen(true)}
+                            className={cn("text-sm font-medium transition-colors hover:text-primary p-3 text-foreground/80 flex items-center")}
+                            aria-label="Search"
+                          >
+                            <Search className="h-5 w-5" />
+                          </button>
+                        </NavigationMenuLink>
+                      </NavigationMenuItem>
+                    );
+                  }
+                  if (link.href === '/varieties') {
+                    return (
+                      <NavigationMenuItem key={link.href}>
+                        <NavigationMenuTrigger
+                          className={cn(
+                            'text-sm font-medium bg-transparent',
+                            pathname.startsWith('/varieties') ? 'text-accent font-bold' : 'text-foreground/80'
+                          )}
+                        >
+                          {link.label}
+                        </NavigationMenuTrigger>
+                        <NavigationMenuContent>
+                          <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
+                            {varieties.map((variety) => (
+                              <ListItem
+                                key={variety.slug}
+                                title={variety.name}
+                                href={`/varieties/${variety.slug}`}
+                              >
+                                {variety.description}
+                              </ListItem>
+                            ))}
+                          </ul>
+                        </NavigationMenuContent>
+                      </NavigationMenuItem>
+                    );
+                  }
                   return (
                     <NavigationMenuItem key={link.href}>
-                      <NavigationMenuTrigger
-                        className={cn(
-                          'text-sm font-medium bg-transparent',
-                          pathname.startsWith('/varieties') ? 'text-accent font-bold' : 'text-foreground/80'
-                        )}
-                      >
-                        {link.label}
-                      </NavigationMenuTrigger>
-                      <NavigationMenuContent>
-                        <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
-                          {varieties.map((variety) => (
-                            <ListItem
-                              key={variety.slug}
-                              title={variety.name}
-                              href={`/varieties/${variety.slug}`}
-                            >
-                              {variety.description}
-                            </ListItem>
-                          ))}
-                        </ul>
-                      </NavigationMenuContent>
+                       <NavigationMenuLink asChild>
+                          <Link href={link.href} className={cn("text-sm font-medium transition-colors hover:text-primary p-3", pathname === link.href ? "text-accent font-bold" : "text-foreground/80")}>
+                            {link.label}
+                          </Link>
+                        </NavigationMenuLink>
                     </NavigationMenuItem>
                   );
-                }
-                return (
-                  <NavigationMenuItem key={link.href}>
-                     <NavigationMenuLink asChild>
-                        <Link href={link.href} className={cn("text-sm font-medium transition-colors hover:text-primary p-3", pathname === link.href ? "text-accent font-bold" : "text-foreground/80")}>
+                })}
+              </NavigationMenuList>
+            </NavigationMenu>
+          </nav>
+          <div className="lg:hidden flex items-center">
+            <Sheet>
+              <SheetTrigger asChild>
+                <Button variant="ghost" size="icon">
+                  <Menu className="h-6 w-6 text-primary" />
+                </Button>
+              </SheetTrigger>
+              <SheetContent side="right" className="w-[300px] sm:w-[400px] p-0">
+                <SheetHeader className='p-4 border-b'>
+                    <SheetTitle className="sr-only">Mobile Navigation</SheetTitle>
+                    <Logo />
+                </SheetHeader>
+                <div className="p-4">
+                  <nav className="flex flex-col space-y-1">
+                    {navLinks.map((link) => {
+                       if (link.href === '#search') {
+                        return (
+                          <SheetClose asChild key={link.href}>
+                            <button
+                              onClick={() => {
+                                setTimeout(() => setIsSearchOpen(true), 150);
+                              }}
+                              className={cn(
+                                "py-3 text-lg font-medium transition-colors hover:text-primary flex items-center gap-2",
+                                "text-foreground"
+                              )}
+                            >
+                              <Search className="h-5 w-5" />
+                              {link.label}
+                            </button>
+                          </SheetClose>
+                        );
+                      }
+                      if (link.href === '/varieties') {
+                        return (
+                           <Accordion type="single" collapsible key={link.href}>
+                             <AccordionItem value="varieties" className="border-b-0">
+                               <AccordionTrigger className={cn("py-3 text-lg font-medium hover:no-underline [&[data-state=open]>svg]:rotate-180", pathname.startsWith('/varieties') ? 'text-accent' : 'text-foreground')}>
+                                 {link.label}
+                               </AccordionTrigger>
+                               <AccordionContent>
+                                 <div className="flex flex-col space-y-2 pl-4">
+                                   {varieties.map(v => (
+                                     <SheetClose asChild key={v.slug}>
+                                       <Link href={`/varieties/${v.slug}`} className={cn("text-base text-muted-foreground hover:text-primary", pathname === `/varieties/${v.slug}` ? 'text-accent font-semibold' : '')}>{v.name}</Link>
+                                     </SheetClose>
+                                   ))}
+                                 </div>
+                               </AccordionContent>
+                             </AccordionItem>
+                           </Accordion>
+                        )
+                      }
+                      return (
+                       <SheetClose asChild key={link.href}>
+                         <Link
+                          href={link.href}
+                          className={cn(
+                            "py-3 text-lg font-medium transition-colors hover:text-primary",
+                            pathname === link.href ? "text-accent" : "text-foreground"
+                          )}
+                        >
                           {link.label}
                         </Link>
-                      </NavigationMenuLink>
-                  </NavigationMenuItem>
-                );
-              })}
-            </NavigationMenuList>
-          </NavigationMenu>
-        </nav>
-        <div className="lg:hidden">
-          <Sheet>
-            <SheetTrigger asChild>
-              <Button variant="ghost" size="icon">
-                <Menu className="h-6 w-6 text-primary" />
-              </Button>
-            </SheetTrigger>
-            <SheetContent side="right" className="w-[300px] sm:w-[400px] p-0">
-              <SheetHeader className='p-4 border-b'>
-                  <SheetTitle className="sr-only">Mobile Navigation</SheetTitle>
-                  <Logo />
-              </SheetHeader>
-              <div className="p-4">
-                <nav className="flex flex-col space-y-1">
-                  {navLinks.map((link) => {
-                    if (link.href === '/varieties') {
-                      return (
-                         <Accordion type="single" collapsible key={link.href}>
-                           <AccordionItem value="varieties" className="border-b-0">
-                             <AccordionTrigger className={cn("py-3 text-lg font-medium hover:no-underline [&[data-state=open]>svg]:rotate-180", pathname.startsWith('/varieties') ? 'text-accent' : 'text-foreground')}>
-                               {link.label}
-                             </AccordionTrigger>
-                             <AccordionContent>
-                               <div className="flex flex-col space-y-2 pl-4">
-                                 {varieties.map(v => (
-                                   <SheetClose asChild key={v.slug}>
-                                     <Link href={`/varieties/${v.slug}`} className={cn("text-base text-muted-foreground hover:text-primary", pathname === `/varieties/${v.slug}` ? 'text-accent font-semibold' : '')}>{v.name}</Link>
-                                   </SheetClose>
-                                 ))}
-                               </div>
-                             </AccordionContent>
-                           </AccordionItem>
-                         </Accordion>
-                      )
-                    }
-                    return (
-                     <SheetClose asChild key={link.href}>
-                       <Link
-                        href={link.href}
-                        className={cn(
-                          "py-3 text-lg font-medium transition-colors hover:text-primary",
-                          pathname === link.href ? "text-accent" : "text-foreground"
-                        )}
-                      >
-                        {link.label}
-                      </Link>
-                     </SheetClose>
-                  )})}
-                </nav>
-              </div>
-            </SheetContent>
-          </Sheet>
+                       </SheetClose>
+                    )})}
+                  </nav>
+                </div>
+              </SheetContent>
+            </Sheet>
+          </div>
         </div>
-      </div>
-    </header>
+      </header>
+      <Dialog open={isSearchOpen} onOpenChange={setIsSearchOpen}>
+        <SearchDialog />
+      </Dialog>
+    </>
   );
 }
 

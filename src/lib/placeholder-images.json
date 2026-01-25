@@ -416,12 +416,6 @@
       "imageHint": "pumpkin seeds"
     },
     {
-      "id": "green-peas",
-      "description": "A bowl of fresh green peas.",
-      "imageUrl": "/image/pulses/peas.png",
-      "imageHint": "green peas"
-    },
-    {
       "id": "horse-gram",
       "description": "A pile of dried horse gram legumes.",
       "imageUrl": "/image/pulses/horsegram.png",
@@ -463,6 +457,12 @@
       "description": "Solid  jaggery",
       "imageUrl": "/image/coconut/jaggery1.png",
       "imageHint": "jaggery"
+    },
+    {
+      "id": "urad-dal",
+      "description": "A bowl of split and skinned urad dal.",
+      "imageUrl": "/image/pulses/urad.png",
+      "imageHint": "urad dal"
     },
     {
       "id": "cold-pressed-oils",
