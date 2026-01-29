@@ -39,18 +39,19 @@ export default function Footer() {
           <h3 className="font-headline text-lg font-semibold">Contact Us</h3>
             <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
                 <li>Email: Indranient13@gmail.com</li>
-                <li>Phone: 9677024296</li>
+                <li>Phone: 9677024296 / 9380388701</li>
+
                 <li>Address: No,3.Varalakshmi Castle, G3,Ground floor, Akbarabad st, 2 ND street, Kodambakkam,Chennai. 600024</li>
             </ul>
           </div>
-          <div>
+          {/* <div>
             <h3 className="font-headline text-lg font-semibold">Follow Us</h3>
             <div className="flex mt-4 space-x-4">
                 <Link href="#" className="text-muted-foreground hover:text-primary transition-colors"><Facebook /></Link>
                 <Link href="#" className="text-muted-foreground hover:text-primary transition-colors"><Twitter /></Link>
                 <Link href="#" className="text-muted-foreground hover:text-primary transition-colors"><Instagram /></Link>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="mt-12 border-t pt-8 text-center text-sm text-muted-foreground">
             <p>&copy; {new Date().getFullYear()} Indirani Enterprises. All Rights Reserved.</p>

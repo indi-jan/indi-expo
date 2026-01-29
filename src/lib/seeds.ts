@@ -38,7 +38,7 @@ export const seeds: Seed[] = [
       benefits: 'Rich in Vitamin E, healthy fats, and magnesium. They support immune function, reduce inflammation, and promote cardiovascular health.'
     },
     {
-      name: 'Eswar Pumpkin Seeds',
+      name: ' Pumpkin Seeds',
       slug: 'pumpkin-seeds',
       image: PlaceHolderImages.find(p => p.id === 'pumpkin-seeds'),
       description: 'Flat, oval-shaped green seeds that are a delicious and nutrient-dense snack, especially when roasted.',

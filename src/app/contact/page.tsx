@@ -40,8 +40,10 @@ export default function ContactPage() {
                     <div>
                         <h3 className="font-headline text-xl font-semibold">Call Us</h3>
                         <p className="text-muted-foreground">Speak with a representative.</p>
+                        <div className="flex flex-col gap-1">
                         <a href="tel:9677024296" className="text-primary hover:underline">9677024296</a>
-                    </div>
+                        <a href="tel:9380388701" className="text-primary hover:underline">9380388701</a>
+                    </div></div>
                 </div>
                 <div className="flex items-start gap-4">
                     <div className="bg-secondary/50 p-4 rounded-full">
