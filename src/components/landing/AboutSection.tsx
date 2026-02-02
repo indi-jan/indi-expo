@@ -38,11 +38,9 @@ export default function AboutSection() {
               A Legacy of Quality and Trust
             </h2>
             <p className="mt-4 text-lg text-muted-foreground">
-              Indirani Enterprises was founded with a simple mission: to share the authentic taste and superior quality of Indian products with the world. For generations, we have cultivated relationships with the best farms, ensuring every grain that leaves our facility is a testament to our commitment to excellence.
-            </p>
+              Indirani Enterprises was established with a focused mission—to deliver the authentic taste and superior quality of Indian agricultural products to global markets. As a growing export company, we collaborate with carefully selected suppliers to ensure every product reflects consistency, purity, and international standards. </p>
             <p className="mt-4 text-muted-foreground">
-              Our state-of-the-art processing and packaging facilities ensure that the natural aroma, flavor, and nutritional value of our products are preserved from farm to table.
-            </p>
+             Our modern processing and packaging practices are designed to preserve the natural aroma, flavor, and nutritional value of our products. From sourcing to final shipment, every stage is managed with precision, ensuring quality is maintained from origin to destination. </p>
             <Button asChild className="mt-6">
               <Link href="/about">Learn More <ArrowRight className="ml-2 h-4 w-4" /></Link>
             </Button>
