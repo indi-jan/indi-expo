@@ -11,10 +11,22 @@ import {
 } from '@/components/ui/dropdown-menu';
 
 export const metadata: Metadata = {
-  title: 'Indirani Enterprises - Premium Quality Goods Supplier',
+  title: 'Basmati & Non-Basmati Rice Exporter in India | Spice Exporter | Indirani Enterprises',
   description:
-    'Indirani Enterprises is a leading exporter of premium quality Indian products. We are committed to quality, sustainability, and customer satisfaction.',
- icons: {
+    'Indirani Enterprises is a leading rice exporter from Chennai, India, offering bulk supply of Basmati and Non-Basmati rice. As a top spice exporter in Tamil Nadu, we provide wholesale rice and spices for global export. Partner with a trusted Indian rice exporter for quality and reliability.',
+  keywords: [
+    'basmati rice exporter in india',
+    'non basmati rice exporter in tamil nadu',
+    'rice exporter from chennai',
+    'indian rice exporter for bulk supply',
+    'wholesale rice exporter in india',
+    'spice exporter in india',
+    'spices exporter in india',
+    'rice and spice exporter in india',
+    'indirani enterprises',
+    'exporter in india',
+  ],
+  icons: {
     icon: {
       url: '/favicon.ico',
       sizes: 'any',
