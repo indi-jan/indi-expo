@@ -11,7 +11,7 @@ import {
 } from '@/components/ui/dropdown-menu';
 
 export const metadata: Metadata = {
-  title: 'Basmati & Non-Basmati Rice Exporter in India | Spice Exporter | Indirani Enterprises',
+  title: 'Indirani Enterprises | Basmati & Non-Basmati Rice Exporter in India | Spice Exporter | Bulk Rice Supplier',
   description:
     'Indirani Enterprises is a leading rice exporter from Chennai, India, offering bulk supply of Basmati and Non-Basmati rice. As a top spice exporter in Tamil Nadu, we provide wholesale rice and spices for global export. Partner with a trusted Indian rice exporter for quality and reliability.',
   keywords: [
