@@ -153,7 +153,7 @@
     {
       "id": "basmati-rice-2",
       "description": "A close up shot of a bowl of Basmati rice.",
-      "imageUrl": "https://images.unsplash.com/photo-1512058564366-18510be2db19?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxiYXNtYXRpJTIwcmljZXxlbnwwfHx8fDE3NjgxNDE0NjZ8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/image/rice/basmatibag.png",
       "imageHint": "basmati rice"
     },
     {
@@ -195,43 +195,43 @@
     {
       "id": "non-basmati-rice-2",
       "description": "A close up of various non-basmati rice grains in a bowl.",
-      "imageUrl": "https://images.unsplash.com/photo-1739923416436-9335f33a4152?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxub24tYmFzbWF0aSUyMGJvd2x8ZW58MHx8fHwxNzY4MzA4MTYxfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/image/rice/nonbasmatibag.png",
       "imageHint": "non-basmati bowl"
     },
     {
       "id": "ponni-rice-2",
       "description": "A package of Ponni rice.",
-      "imageUrl": "https://images.unsplash.com/photo-1647221597996-54f3d0f73809?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwb25uaSUyMHBhY2thZ2V8ZW58MHx8fHwxNzY4MzA4MTYxfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/image/rice/ponnibag.png",
       "imageHint": "ponni package"
     },
     {
       "id": "sona-masoori-rice-2",
       "description": "A close up shot of a bowl of Sona Masoori rice.",
-      "imageUrl": "https://images.unsplash.com/photo-1682801820446-e453fb2e0348?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzb25hLW1hc29vcmklMjBib3dsfGVufDB8fHx8MTc2ODMwODE2MXww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/image/rice/sonabag.png",
       "imageHint": "sona-masoori bowl"
     },
     {
       "id": "idly-rice-2",
       "description": "A close up shot of a bowl of Idly rice.",
-      "imageUrl": "https://images.unsplash.com/photo-1766336041961-86c9be196d82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxpZGx5JTIwYm93bHxlbnwwfHx8fDE3NjgzMDgxNjF8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/image/rice/idlybag.png",
       "imageHint": "idly bowl"
     },
     {
       "id": "matta-rice-2",
       "description": "A package of Kerala Matta (Red Rice).",
-      "imageUrl": "https://images.unsplash.com/photo-1623668192062-a4053bb17064?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtYXR0YSUyMHBhY2thZ2V8ZW58MHx8fHwxNzY4MzA4MTYxfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/image/rice/keralamattabag.png",
       "imageHint": "matta package"
     },
     {
       "id": "ir64-rice-2",
       "description": "A package of IR 64 rice.",
-      "imageUrl": "https://images.unsplash.com/photo-1525569792854-aaaf1b68cb8b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxpcjY0JTIwcGFja2FnZXxlbnwwfHx8fDE3NjgzMDgxNjF8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/image/rice/ir64bag.png",
       "imageHint": "ir64 package"
     },
     {
       "id": "organic-rice-2",
       "description": "A package of organic rice.",
-      "imageUrl": "https://images.unsplash.com/photo-1603712521905-3c68898026f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxvcmdhbmljJTIwcGFja2FnZXxlbnwwfHx8fDE3NjgzMDgxNjF8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/image/rice/organicbag.png",
       "imageHint": "organic package"
     },
     {

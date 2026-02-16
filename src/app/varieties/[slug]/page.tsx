@@ -65,13 +65,12 @@ export default function VarietyPage({ params }: PageProps) {
             {/* Top Section */}
             <motion.div variants={fadeIn} className="grid md:grid-cols-2 gap-8 md:gap-12 items-start mb-12">
               {variety.image && (
-                <div className="w-full">
+                <div className="w-full relative aspect-[4/3] bg-card rounded-lg shadow-md">
                   <Image
                     src={variety.image.imageUrl}
                     alt={variety.image.description}
-                    width={600}
-                    height={450}
-                    className="rounded-lg shadow-md object-cover w-full h-auto aspect-[4/3]"
+                    fill
+                    className="rounded-lg object-contain"
                     data-ai-hint={variety.image.imageHint}
                   />
                 </div>
@@ -85,13 +84,12 @@ export default function VarietyPage({ params }: PageProps) {
             {/* Bottom Section */}
             <motion.div variants={fadeIn} className="grid md:grid-cols-2 gap-8 md:gap-12 items-start">
               {variety.image2 && (
-                <div className="w-full">
+                <div className="w-full relative aspect-[4/3] bg-card rounded-lg shadow-md">
                   <Image
                     src={variety.image2.imageUrl}
                     alt={variety.image2.description}
-                    width={600}
-                    height={450}
-                    className="rounded-lg shadow-md object-cover w-full h-auto aspect-[4/3]"
+                    fill
+                    className="rounded-lg object-contain"
                     data-ai-hint={variety.image2.imageHint}
                   />
                 </div>
