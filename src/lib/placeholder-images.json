@@ -465,6 +465,36 @@
       "imageHint": "urad dal"
     },
     {
+      "id": "hero-rice",
+      "description": "A close up shot of a bowl of Idly rice.",
+      "imageUrl": "/image/hero/rice.png",
+      "imageHint": "herorice"
+    },
+    {
+      "id": "hero-pulse",
+      "description": "A close up shot of a bowl of Idly rice.",
+      "imageUrl": "/image/hero/pulse.png",
+      "imageHint": "heropulse"
+    },
+    {
+      "id": "hero-spice",
+      "description": "A close up shot of a bowl of Idly rice.",
+      "imageUrl": "/image/hero/spice.png",
+      "imageHint": "herospice"
+    },
+    {
+      "id": "hero-coconut",
+      "description": "A close up shot of a bowl of coconut.",
+      "imageUrl": "/image/hero/coconut.png",
+      "imageHint": "hero coconut"
+    },
+    {
+      "id": "hero-bg",
+      "description": "A close up shot of a bowl of coconut.",
+      "imageUrl": "/image/hero/bg.png",
+      "imageHint": "hero bg"
+    },
+    {
       "id": "cold-pressed-oils",
       "description": "Bottles of various cold pressed oils.",
       "imageUrl": "/image/coconut/oil.png",
