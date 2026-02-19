@@ -119,14 +119,14 @@ export default function HeroSection() {
                         <p className="mt-4 text-lg md:text-xl text-white/90">
                             Delivering the finest quality Basmati, Non-Basmati, and aromatic spices from the heart of India to the world.
                         </p>
-                        <div className="mt-8 flex flex-col sm:flex-row justify-start gap-4">
+                        {/* <div className="mt-8 flex flex-col sm:flex-row justify-start gap-4">
                             <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90">
                                 <Link href="/#varieties">Explore Our Products</Link>
                             </Button>
                             <Button asChild size="lg" variant="outline">
                                 <Link href="/contact">Request a Quote</Link>
                             </Button>
-                        </div>
+                        </div> */}
                     </motion.div>
                 </div>
             </div>
