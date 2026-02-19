@@ -495,6 +495,30 @@
       "imageHint": "hero bg"
     },
     {
+      "id": "heroseed-1",
+      "description": "A close up shot of a bowl of seeds.",
+      "imageUrl": "/image/hero/heroseed1.png",
+      "imageHint": "hero seed 1"
+    },
+    {
+      "id": "herospice-1",
+      "description": "A close up shot of a bowl of spices.",
+      "imageUrl": "/image/hero/herospice1.png",
+      "imageHint": "hero spice 1"
+    },
+    {
+      "id": "herococonut-1",
+      "description": "A close up shot of a bowl of coconut.",
+      "imageUrl": "/image/hero/herococonut1.png",
+      "imageHint": "hero coconut 1"
+    },
+    {
+      "id": "herorice-1",
+      "description": "A close up shot of a bowl of rice.",
+      "imageUrl": "/image/hero/herorice1.png",
+      "imageHint": "hero rice 1"
+    },
+    {
       "id": "cold-pressed-oils",
       "description": "Bottles of various cold pressed oils.",
       "imageUrl": "/image/coconut/oil.png",
